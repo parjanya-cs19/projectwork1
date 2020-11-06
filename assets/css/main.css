@@ -44,3 +44,22 @@ select.form-control {
 .form-control:focus {
     box-shadow: none;
 }
+.custom-shape-divider-top-1604481396 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1604481396 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 174px;
+}
+
+.custom-shape-divider-top-1604481396 .shape-fill {
+    fill: #14274E;
+}
