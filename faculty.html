@@ -24,7 +24,7 @@
             </div>
             <!-- Login Form -->
             <div class="col-md-7 col-lg-6 ml-auto" style="margin-top: 10%;">
-                <form>
+                <form onsubmit="validateFacultyPassword()">
                     <div class="row">
                         <div class="input-group col-lg-12 mb-4">
                             <h1>
@@ -38,8 +38,7 @@
                                     <i class="fa fa-envelope text-muted"></i>
                                 </span>
                             </div>
-                            <input type="email" name="facultyEmail" id = "facultyEmail" placeholder="Email Address"
-                                class="form-control bg-white border-left-0 border-md">
+                            <input type="email" name="facultyEmail" id = "facultyEmail" placeholder="Email Address" class="form-control bg-white border-left-0 border-md" required>
                         </div>
 
                         <!-- Password -->
@@ -49,16 +48,11 @@
                                     <i class="fa fa-lock text-muted"></i>
                                 </span>
                             </div>
-                            <input id="facultyPassword" type="password" name="facultyPassword" placeholder="Password"
-                                class="form-control bg-white border-left-0 border-md">
+                            <input id="facultyPassword" type="password" name="facultyPassword" placeholder="Password" class="form-control bg-white border-left-0 border-md" required>
                         </div>
                         <!-- Submit Button -->
                         <div class="form-group col-lg-12 mx-auto mb-0">
-                            <a href="facdash.html" >
-                                <p class="btn btn-primary btn-block py-2" >
-                                    <span class="font-weight-bold" >Login</span>
-                                </p>
-                            </a>
+                            <input class="btn btn-primary btn-block py-2" type="submit" value="Login">   
                         </div>
                     </div>
                 </form>
